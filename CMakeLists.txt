@@ -26,9 +26,9 @@ aux_source_directory(. Dir_src)
 add_subdirectory(src)
 
 # distribution
-add_executable(indexc main.c)
+add_executable(joyc main.c)
 
 
 # 添加连接库
-target_link_libraries(indexc lib_main)
+target_link_libraries(joyc joy)
 

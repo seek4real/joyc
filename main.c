@@ -20,7 +20,7 @@ extern void Logg(const char*);
 int main(int argc, char* argv[])
 {
     printf("init ");
-    int a, b, c = { 0, 1, 2};
+    int a, b, c = { 0xff };
     printf("\n");
     printf("a:%d, b:%d, c:%d \n", a, b, c);
 
