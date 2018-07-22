@@ -1,5 +1,6 @@
 /*
  * log.h
+ * Project joyc
  *
  * Logger system
  */

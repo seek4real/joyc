@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #build.sh
-# build.sh is a generator, use cmake.
+# build.sh is a generator in UNIX-like system, use cmake.
 
 # Usage:
 # Only `sh build.sh` in your shell(generally is bash,csh)
@@ -11,13 +11,13 @@
 root=$(cd `dirname $0`; pwd)
 echo "project root path is " $root
 
-:<<BLOCK
-if [ ! -d ./build ]
-then
-   echo "./build is not a directory. Delete them if you nessasearry."
-   exit 1
-fi
-BLOCK
+# :<<BLOCK
+# if [ ! -d ./build ]
+# then
+#    echo "./build is not a directory. Delete them if you nessasearry."
+#    exit 1
+# fi
+# BLOCK
 
 # remove old build directory
 if [[ -e ./build && -d ./build ]]

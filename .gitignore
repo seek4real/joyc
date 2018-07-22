@@ -10,4 +10,4 @@ CTestTestfile.cmake
 
 
 build/
-
+*.code-workspace

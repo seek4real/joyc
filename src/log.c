@@ -1,10 +1,8 @@
 // test.c
-// project indexc file
+// project joyc file
 //
 // A module logger
 
-
-//#program once
 
 
 #include <stdio.h>
@@ -17,5 +15,5 @@ void Logg(const char* s)
 
 void Error(const char* s)
 {
-    printf("error:%s\n", s);
+    printf("<color='red'>error:</color>%s\n", s);
 }

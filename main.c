@@ -20,6 +20,7 @@ int main(int argc, char* argv[])
     Logg("Hello World");
     Error("This is a error message!");
 
+    system("echo done.\n");
     return 0;
 }
 
