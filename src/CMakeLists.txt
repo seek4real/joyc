@@ -7,5 +7,5 @@ aux_source_directory(. Dir_lib_src)
 
 
 # build library
-add_library(joy ${Dir_lib_src})
+add_library(core ${Dir_lib_src})
 

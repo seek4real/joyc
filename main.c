@@ -9,18 +9,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "src/log.h"
-
+#include "help.h"
 
 
 
 
 int main(int argc, char* argv[])
 {
+    log("Hello World");
+    error("This is a error message!");
 
-    Logg("Hello World");
-    Error("This is a error message!");
-
-    system("echo done.\n");
+	system("pause");
     return 0;
 }
 

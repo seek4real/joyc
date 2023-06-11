@@ -1,9 +1,9 @@
-# compiler project `index` CMakeList.txt
+﻿# compiler project `joyc` CMakeList.txt
 
 cmake_minimum_required(VERSION 2.8)
 
 # project name
-project(index)
+project(joyc)
 
 # version
 set(index_version 0.1)
@@ -30,5 +30,5 @@ add_executable(joyc main.c)
 
 
 # 添加连接库
-target_link_libraries(joyc joy)
+target_link_libraries(joyc core)
 

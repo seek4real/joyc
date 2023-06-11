@@ -7,13 +7,15 @@
 
 #include <stdio.h>
 
-void Logg(const char* s)
+void log(const char* s)
 {
-    printf("log:%s\n", s);
+    //printf("log:%s\n", s);
+	print(s);
+	print("\n");
 }
 
 
-void Error(const char* s)
+void error(const char* s)
 {
-    printf("<color='red'>error:</color>%s\n", s);
+    printf("error:%s\n", s);
 }
