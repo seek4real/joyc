@@ -5,6 +5,6 @@
 
 #pragma once
 
-//#include <string.h>
+#include <string>
 
-const char* const help_str = "This is help text.\0";
+const static std::string help_str = "This is help text.";
